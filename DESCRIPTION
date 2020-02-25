@@ -16,3 +16,5 @@ Suggests:
     testthat (>= 2.1.0),
     tools
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/moodymudskipper/liblog
+BugReports: https://github.com/moodymudskipper/liblog/issues

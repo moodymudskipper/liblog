@@ -14,3 +14,9 @@ test_that("liblog works", {
   expect_length(content, 2)
   expect_identical(content[[2]], "tools")
 })
+
+
+test_that("get_liblog works", {
+  expect_error(get_liblog(), NA)
+  expect_error(get_liblog(duplicates = TRUE, default = TRUE, base = TRUE, recommended = TRUE), NA)
+})

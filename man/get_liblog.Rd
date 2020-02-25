@@ -31,6 +31,3 @@ several times at the same timestamp, are removed. Default packages as defined by
 defined by \code{rownames(installed.packages(priority="recommended"))}, are
 ignored by default.
 }
-\examples{
-tail(get_liblog())
-}

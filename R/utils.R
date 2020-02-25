@@ -15,9 +15,6 @@
 #' @return a data.frame
 #' @Import utils
 #' @export
-#'
-#' @examples
-#' tail(get_liblog())
 get_liblog <- function(duplicates = FALSE, default = base, base = FALSE, recommended = FALSE) {
   out <- utils::read.table(getOption("liblog.path"),
              header = FALSE, sep = ",", strip.white = TRUE)

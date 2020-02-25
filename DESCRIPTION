@@ -1,0 +1,18 @@
+Package: liblog
+Title: Log Calls to loadNamespace
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Antoine",
+           family = "Fabri",
+           role = c("aut", "cre"),
+           email = "antoine.fabri@antoine.fabri")
+Description: This package logs calls to loadNamespace, so one can track their
+  use of packages.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0),
+    tools
+Roxygen: list(markdown = TRUE)
